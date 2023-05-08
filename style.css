@@ -1,0 +1,250 @@
+:root{
+    --background:#fff;
+    --main-color:#e2203d;
+    --sec-color:#202C3C;
+}
+body{
+    margin: 0;
+    background-color:var(--background);
+}
+.main-container {
+    display: flex;
+    max-width: 1140px;
+    margin: 90px auto;
+    background: #09111f;
+    box-shadow: 0px 0px 20px;
+}
+.left-side {
+    background: #202C3C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+    border-radius: 10px;
+    width: 10%;
+}
+.middle-side {
+    width: 70%;
+}
+.right-side {
+    width: 20%;
+}
+.left-icon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 10px;
+    padding: 10px 10px;
+}
+.logo {
+    width: 20px;
+    height: 20px;
+    background: red;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.weather, .cat, .map, .setting {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    height: 90px;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0% 5%;
+    background: #202c3c;
+}
+.middle-side .display {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.right img {
+    width: 230px;
+}
+.left h2 {
+    margin: 5px 0px;
+    font-size: 50px;
+}
+.degree {
+    margin: 25px;
+    position: relative;
+}
+.degree span {
+    font-size: 62px;
+}
+.degree sup {
+    position: absolute;
+    top: 10px;
+}
+.search {
+    margin: 15px auto;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+  .h-inner {
+    display: flex;
+    justify-content: center;
+}
+.h-item {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.hour-container {
+    background: #202c3c;
+    color: white;
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.h-heading {
+    font-size: 20px;
+    font-weight: 400;
+}
+.h-item i {
+    color: wheat;
+    font-size: 30px;
+}
+.air-con {
+    color: white;
+}
+.air-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 11px 5px;
+}
+.air-con {
+    color: white;
+    background: #202c3c;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.i-t {
+    display: flex;
+    align-items: center;
+}
+.air-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.air-bottom .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.i-t i {
+    padding: 0px 10px;
+}
+.i-t .text {
+    font-size: 18px;
+}
+.degg {
+    font-size: 21px;
+    font-weight: 600;
+}
+.down-footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.page ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.page ul a:hover {
+    text-transform: uppercase;
+}
+
+.right-container {
+    background: #202c3c;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 15px;
+    border-bottom: 1px solid gray;
+}
+.two i {
+    font-size: 23px;
+    color: #d9b43e;
+}
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input, textarea {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 40rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  

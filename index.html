@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- respose-->
+    <title>Weather Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- css connect-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- icon connect-->
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="left-side">
+            <div class="logo"><i class="fa-sharp fa-solid fa-wind" style="color: #ffffff;"></i></div>
+            <div class="left-icon">
+                <div class="weather">
+                    <i class="fa-solid fa-cloud-sun-rain" style="color: #ffffff;"></i>
+
+                    <div>Weather</div>
+                </div>
+                <div class="cat">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    <div>Catag.</div>
+                </div>
+                <div class="map">
+                    <i class="fa-solid fa-map-location-dot" style="color: #ffffff;"></i>
+                    <div>Map</div>
+                </div>
+                <div class="setting">
+                    <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                    <div>Setting</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="middle-side">
+            <div class="search">
+                <input type="text" placeholder="Search weather..">
+            </div>
+            <div class="display">
+                <div class="left">
+                    <h2>Dhaka</h2>
+                    <div>Chance of rain 2%</div>
+                    <div class="degree"><span>39</span><sup><i class="fa-regular fa-circle"
+                                style="color: #ffffff;"></i></sup>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="sun-cloud-3d-weather-png.png" alt="">
+                </div>
+            </div>
+
+            <!-- 24 Houre whether start -->
+            <div class="hour-container">
+                <div class="h-heading">24 Hour Fourcast</div>
+                <div class="h-inner">
+
+                    <div class="h-item">
+                        <div>8 AM</div>
+                        <i class="fa-solid fa-cloud-sun-rain"></i>
+                        <div>27 deg.</div>
+                    </div>
+                    <div class="h-item">
+                        <div>11 AM</div>
+                        <i class="fa-solid fa-sun"></i>
+                        <div>33 deg.</div>
+                    </div>
+                    <div class="h-item">
+                        <div>02 PM</div>
+                        <i class="fa-solid fa-cloud-sun-rain"></i>
+                        <div>38 deg.</div>
+                    </div>
+                    <div class="h-item">
+                        <div>05 PM</div>
+                        <i class="fa-solid fa-cloud-sun"></i>
+                        <div>37 deg.</div>
+                    </div>
+                    <div class="h-item">
+                        <div>07 PM</div>
+                        <i class="fa-solid fa-cloud-sun-rain"></i>
+                        <div>32 deg.</div>
+                    </div>
+                    <div class="h-item">
+                        <div>10 PM</div>
+                        <i class="fa-solid fa-cloud-sun-rain"></i>
+                        <div>30 deg.</div>
+                    </div>
+                    <div class="h-item">
+                        <div>12 AM</div>
+                        <i class="fa-solid fa-sun"></i>
+                        <div>30 deg.</div>
+                    </div>
+                    <div class="h-item">
+                        <div>03 AM</div>
+                        <i class="fa-solid fa-cloud-sun"></i>
+                        <div>26 deg.</div>
+                    </div>
+                    <div class="h-item">
+                        <div>06 AM</div>
+                        <i class="fa-solid fa-cloud-sun-rain"></i>
+                        <div>25 deg.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- 24 Houre whether end -->
+            <!-- Air Condition Start -->
+            <div class="air-con">
+                <div class="air-top">
+                    <div class="left">Air Condition</div>
+                    <div class="right">See more</div>
+                </div>
+                <div class="air-inner-container">
+                    <div class="air-bottom">
+                        <div class="item">
+                            <div class="i-t">
+                                <div class="icon"><i class="fa-solid fa-temperature-three-quarters"></i></div>
+                                <div class="text">Real Feel</div>
+                            </div>
+                            <div class="degg">38 Deg.</div>
+                        </div>
+                        <div class="item">
+                            <div class="i-t">
+                                <div class="icon"><i class="fa-solid fa-wind"></i></div>
+                                <div class="text">Wind</div>
+                            </div>
+                            <div class="degg">0.6 km/h</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="air-inner-container">
+                    <div class="air-bottom">
+                        <div class="item">
+                            <div class="i-t">
+                                <div class="icon"><i class="fa-solid fa-droplet"></i></div>
+                                <div class="text">Chance of rain</div>
+                            </div>
+                            <div class="degg">3%</div>
+                        </div>
+                        <div class="item">
+                            <div class="i-t">
+                                <div class="icon"><i class="fa-solid fa-sun"></i></div>
+                                <div class="text">UV Index</div>
+                            </div>
+                            <div class="degg">3</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="page">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About us</a></li>
+                    <li><a href="/privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="/terms.html">Terms Of Use</a></li>
+                    <li><a href="/contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="down-footer">© 2023 ‧ Weather Zone‧ All rights reserved.
+                 Developed by Codex.</div>
+        </div>
+         <div class="right-side">
+        <div class="right-container">
+            <div class="right-container">7-Day Forecast</div>
+            <div class="day">
+                <div class="one">Today</div>
+                <div class="two"><i class="fa-solid fa-sun"></i> Sunny</div>
+                <div class="three">40/32</div>
+            </div> <div class="day">
+                <div class="one">Tue</div>
+                <div class="two"><i class="fa-solid fa-sun"></i> Sunny</div>
+                <div class="three">36/22</div>
+            </div> <div class="day">
+                <div class="one">Wed</div>
+                <div class="two"><i class="fa-solid fa-sun"></i> Sunny</div>
+                <div class="three">36/22</div>
+            </div> <div class="day">
+                <div class="one">Thu</div>
+                <div class="two"><i class="fa-solid fa-cloud-sun"></i> Cloudy</div>
+                <div class="three">35/22</div>
+            </div> <div class="day">
+                <div class="one">Fri</div>
+                <div class="two"><i class="fa-solid fa-cloud-sun"></i> Cloudy</div>
+                <div class="three">36/22</div>
+            </div> <div class="day">
+                <div class="one">Sat</div>
+                <div class="two"><i class="fa-solid fa-cloud-sun-rain"></i> Rainy</div>
+                <div class="three">36/22</div>
+            </div> <div class="day">
+                <div class="one">Sun</div>
+                <div class="two"><i class="fa-solid fa-poo-storm"></i> Stram</div>
+                <div class="three">36/22</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Air Condition End -->
+
+   
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
